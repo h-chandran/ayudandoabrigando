@@ -5,25 +5,47 @@
 
 import { Platform } from 'react-native';
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+const primaryGreenLight = '#1B7F4A';
+const primaryGreenDark = '#7AD9A0';
+const secondaryTealLight = '#1F8A70';
+const secondaryTealDark = '#63D2D6';
+const backgroundLight = '#F5F7F2';
+const backgroundDark = '#0D1510';
+const cardLight = '#FFFFFF';
+const cardDark = '#151F18';
+const subtleBorderLight = '#D7E2D3';
+const subtleBorderDark = '#243326';
 
 export const Colors = {
   light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
+    text: '#102116',
+    background: backgroundLight,
+    card: cardLight,
+    border: subtleBorderLight,
+    tint: primaryGreenLight,
+    icon: '#5B6C5E',
+    tabIconDefault: '#7A8A7D',
+    tabIconSelected: primaryGreenLight,
+    success: primaryGreenLight,
+    warning: '#E9A100',
+    danger: '#C73535',
+    info: secondaryTealLight,
+    muted: '#9BA9A0',
   },
   dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
+    text: '#F2F7F3',
+    background: backgroundDark,
+    card: cardDark,
+    border: subtleBorderDark,
+    tint: primaryGreenDark,
+    icon: '#A7BAAA',
+    tabIconDefault: '#7D9180',
+    tabIconSelected: primaryGreenDark,
+    success: primaryGreenDark,
+    warning: '#F4C452',
+    danger: '#FF7A7A',
+    info: secondaryTealDark,
+    muted: '#9BA9A0',
   },
 };
 
